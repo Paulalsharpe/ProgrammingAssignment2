@@ -42,7 +42,7 @@ cacheSolve <- function(x, ...) {
     ## current enviroment. Returns NULL if function has not been previously run.    
     i <- x$getinverse()
     ## Checks to see if i is not equal to NULL if TRUE then prints 
-    ## message, returns cached inverse and breaks out of function.
+    ## message, returns cached inverse and breaks out of the function.
     if (!is.null(i)) {
         message("getting cached data")
         return(i)
